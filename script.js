@@ -2,10 +2,9 @@
 
 let nombre = prompt("Buenas, ¿Como te llamas?");
 
-if (nombre = "lady" || nombre == "Lady") {
+if (nombre == "lady" || nombre == "Lady" || nombre == "leidy" || nombre == "Leidy") {
     alert("Hola Lady, feliz cumple (disculpa si es atrasado :p), espero te guste este pequeño programa y que cumplas muchos años mas y que esa guitarra siga afinada :p (solo con tu nombre sale este mensaje shh jaja)")
 }
-
 alert(`Hola ${nombre} en el programa se te pediran dos numeros, porfavor introducelos y se te mostrara en pantalla los numeros impares que existen entre ellos`)
 
 function pedirNumero(lugar) {
